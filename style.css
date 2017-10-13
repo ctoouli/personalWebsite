@@ -1,0 +1,38 @@
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  background: url(https://media.giphy.com/media/9zXWAIcr6jycE/giphy.gif);
+  background-size: cover;
+  height: 100%;
+}
+
+
+
+.main {
+  position:absolute;
+  left:70px; top:92px; right:0; bottom:0px;
+}
+
+.navigationBarUl {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navigationBarUl a {
+  float: left;
+  padding: 14px 16px;
+  display: block;
+  color: #f2f2f2;
+  text-decoration: none;
+  text-align: center;
+  font-size: 17px;
+}
+
+.navigationBarUl a:hover{
+  background-color: #ddd;
+  color: black;
+}
